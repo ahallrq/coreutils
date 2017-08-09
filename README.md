@@ -15,7 +15,7 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|cp|Copies a file or directory
 ✗|dd|Copies and converts a file
 ✗|df|Shows disk free space on file systems
-✗|dir|"Is exactly like ""ls -C -b"". (Files are by default listed in columns and sorted vertically.)"
+✗|dir|Is exactly like "ls -C -b". (Files are by default listed in columns and sorted vertically.)
 ✗|dircolors|Set up color for ls
 ✗|install|Copies files and set attributes
 ✗|ln|Creates a link to a file
@@ -28,11 +28,11 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|realpath|Returns the resolved absolute or relative path for a file
 ✗|rm|Removes (deletes) files
 ✗|rmdir|Removes empty directories
-✗|shred|"Overwrites a file to hide its contents
+✗|shred|Overwrites a file to hide its contents
 ✗|sync|Flushes file system buffers
 ✗|touch|Changes file timestamps
 ✗|truncate|Shrink or extend the size of a file to the specified size
-✗|vdir|"Is exactly like ""ls -l -b"". (Files are by default listed in long format.)"
+✗|vdir|Is exactly like "ls -l -b". (Files are by default listed in long format.)
 ✗|b2sum|Computes and checks Blake2 message digest
 ✗|base32|base32 encodes or decodes data and prints to standard output
 ✗|base64|base64 encodes or decodes data and prints to standard output
@@ -68,7 +68,7 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|tsort|Performs a topological sort
 ✗|unexpand|Converts spaces to tabs
 ✗|uniq|Removes duplicate lines from a sorted file
-✗|wc|"Prints the number of bytes
+✗|wc|Prints the number of bytes
 ✗|arch|Prints machine hardware name (same as uname -m)
 ✗|basename|Removes the path prefix from a given pathname
 ✗|chroot|Changes the root directory
@@ -79,7 +79,7 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|env|Displays and modifies environment variables
 ✗|expr|Evaluates expressions
 ✗|factor|Factors numbers
-✗|false|"Does nothing
+✗|false|Does nothing
 ✗|groups|Prints the groups of which the user is a member
 ✗|hostid|Prints the numeric identifier for the current host
 ✗|id|Prints real or effective UID and GID
@@ -103,7 +103,7 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|tee|Sends output to multiple files
 ✗|test|Evaluates an expression
 ✗|timeout|Run a command with a time limit
-✗|true|"Does nothing
+✗|true|Does nothing
 ✗|tty|Prints terminal name
 ✗|uname|Prints system information
 ✗|unlink|Removes the specified file using the unlink function
