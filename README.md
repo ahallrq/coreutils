@@ -4,7 +4,9 @@ Intended to be a re-implementation of various coreutils and extra programs for t
 
 Beware: Don't expect 100% compatibility with the GNU or busybox equivalents. Likewise goes for any extra program provided here
 
-Comparison to GNU Coreutils (where a checkmark indicates that the program is working):
+Comparison to GNU Coreutils:
+
+*A question mark indicates an unusuable/wip utility. A checkmark indicates a usable utility.*
 
 **Usable**|**Name**|**Description**
 :-----:|:-----:|:-----:
