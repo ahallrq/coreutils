@@ -19,7 +19,7 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|dircolors|Set up color for ls
 ✗|install|Copies files and set attributes
 ✗|ln|Creates a link to a file
-✗|ls|Lists the files in a directory
+**?**|ls|Lists the files in a directory
 ✗|mkdir|Creates a directory
 ✗|mkfifo|Makes named pipes (FIFOs)
 ✗|mknod|Makes block or character special files
@@ -79,7 +79,7 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|env|Displays and modifies environment variables
 ✗|expr|Evaluates expressions
 ✗|factor|Factors numbers
-✗|false|Does nothing
+✓|false|Does nothing
 ✗|groups|Prints the groups of which the user is a member
 ✗|hostid|Prints the numeric identifier for the current host
 ✗|id|Prints real or effective UID and GID
@@ -103,7 +103,7 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|tee|Sends output to multiple files
 ✗|test|Evaluates an expression
 ✗|timeout|Run a command with a time limit
-✗|true|Does nothing
+✓|true|Does nothing
 ✗|tty|Prints terminal name
 ✗|uname|Prints system information
 ✗|unlink|Removes the specified file using the unlink function
