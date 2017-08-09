@@ -6,7 +6,7 @@ Beware: Don't expect 100% compatibility with the GNU or busybox equivalents. Lik
 
 Comparison to GNU Coreutils:
 
-*A question mark indicates an unusuable/wip utility. A checkmark indicates a usable utility.*
+*A question mark indicates an unusuable/wip utility. A checkmark indicates a usable utility and a cross indicates a missing utility.*
 
 **Usable**|**Name**|**Description**
 :-----:|:-----:|:-----:
