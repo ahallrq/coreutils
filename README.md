@@ -53,7 +53,11 @@ Comparison to GNU Coreutils (where a checkmark indicates that the program is wor
 ✗|paste|Merges lines of files
 ✗|ptx|Produces a permuted index of file contents
 ✗|pr|Converts text files for printing
-✗|"sha1sum|sha224sum
+✗|sha1sum|Calculates and checks SHA1 checksums.
+✗|sha224sum|Calculates and checks SHA224 checksums.
+✗|sha256sum|Calculates and checks SHA256 checksums.
+✗|sha384sum|Calculates and checks SHA384 checksums.
+✗|sha512sum|Calculates and checks SHA512 checksums.
 ✗|shuf|generate random permutations
 ✗|sort|sort lines of text files
 ✗|split|Splits a file into pieces
