@@ -86,7 +86,7 @@ int main(int argc, char **argv)
             if (strlen(arg_filename) == 0)
             {
                 strncpy(arg_filename, argv[arg], sizeof(arg_filename));
-                arg_filename[sizeof(arg_filename)] = '\0';
+                arg_filename[sizeof(arg_filename)-1] = '\0';
                 continue;
             }
         }

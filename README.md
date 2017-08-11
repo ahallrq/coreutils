@@ -21,7 +21,7 @@ Comparison to GNU Coreutils:
 ✗|dircolors|Set up color for ls
 ✗|install|Copies files and set attributes
 ✗|ln|Creates a link to a file
-**?**|ls|Lists the files in a directory
+✓|ls|Lists the files in a directory
 ✗|mkdir|Creates a directory
 ✗|mkfifo|Makes named pipes (FIFOs)
 ✗|mknod|Makes block or character special files
