@@ -155,7 +155,7 @@ int hexdump(char filename[])
     fseek(f, 0, SEEK_SET);
     long filepos = 0;
 
-    int buffersize = 16;
+    int buffersize = arg_buffersize;
     unsigned char buffer[buffersize];
     int blocksize = arg_blocksize;
     int blocks = buffersize/blocksize;
@@ -171,7 +171,7 @@ int hexdump(char filename[])
     {
         memset(buffer, 0, sizeof(buffer));
         int bufferpos = 0;
-        int bytesread = fread(buffer, 1, 16, f);
+        int bytesread = fread(buffer, 1, buffersize, f);
         if (bytesread == 0)
         {
             if (ferror(f))
