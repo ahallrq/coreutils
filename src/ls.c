@@ -68,15 +68,19 @@ void ls(char *path)
                 fperms_str(entry_stats.st_mode, fmode);
 
                 printf("[%s] %s - %li bytes - %s\n", 
-                    ftype, 
-                    entrylist[entrylist_pos]->d_name, 
+                    ftype,
+                    fmode,
                     entry_stats.st_size,
-                    fmode);
+                    entrylist[entrylist_pos]->d_name);
+
+                free(full_path);
                 free(entrylist[entrylist_pos]);
             }
+            
+            free(corrected_path);
+            free(entrylist);
         }
 
-        free(entrylist);
 }
 
 void fperms_str(mode_t f_mode, char *out)
